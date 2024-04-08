@@ -1,4 +1,5 @@
-# app
+# AVA
+Este é um projeto feito no processo seletivo para ingressar no Laboratório de Pesquisa Laís. Nesse repositório você encontrará o frontend desenvolvido nessa etapa do processo seletivo.
 
 ## Project setup
 ```
@@ -9,16 +10,3 @@ pnpm install
 ```
 pnpm run serve
 ```
-
-### Compiles and minifies for production
-```
-pnpm run build
-```
-
-### Lints and fixes files
-```
-pnpm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
