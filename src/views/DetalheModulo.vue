@@ -83,7 +83,7 @@ const numberReal = (numero) => { return parseFloat(numero).toLocaleString('pt-BR
 onMounted(async () => {
   const route = useRoute()
   const moduleId = route.params.id
-  const apiUrl = `http://127.0.0.1:3004/cursos/${moduleId}` // faz a requisição com base no id passado nos paramentros da rota
+  const apiUrl = `https://avaapi.onrender.com/cursos/${moduleId}` // faz a requisição com base no id passado nos paramentros da rota
   const response = await axios.get(apiUrl)
   modulo.value = response.data
   objEspecifico.value = response.data.objetivo_especifico ? response.data.objetivo_especifico.split('-') : '' // formata texto removendo '-'

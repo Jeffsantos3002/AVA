@@ -82,7 +82,7 @@ const usuariosCursos = ref([['Task', 'Hours per Day']])
 
 async function carregarDados () {
   try {
-    const apiUrl = 'http://127.0.0.1:3004/transparecia' // adicona a categoria na requisição depois de ter clicado em um dos texto
+    const apiUrl = 'https://avaapi.onrender.com/transparecia' // adicona a categoria na requisição depois de ter clicado em um dos texto
     const response = await axios.get(apiUrl)
     if (response.data) {
       transparencia.value = response.data

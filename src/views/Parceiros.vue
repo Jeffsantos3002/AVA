@@ -70,7 +70,7 @@ const totalPages = computed(() => {
 
 async function carregarParceiros () {
   try {
-    const apiUrl = 'http://127.0.0.1:3004/parceiros'
+    const apiUrl = 'https://avaapi.onrender.com/parceiros'
     const response = await axios.get(apiUrl)
     if (response.data) {
       items.value = response.data

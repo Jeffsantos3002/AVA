@@ -163,7 +163,7 @@ const redirecionarParaDetalhes = (moduloId, moduloTitulo) => {
 }
 async function carregarCursos () {
   try {
-    const apiUrl = `http://127.0.0.1:3004/cursos?cateroria=${categoria.value}&_sort=criado_em&_order=desc` // adicona a categoria na requisição depois de ter clicado em um dos texto
+    const apiUrl = `https://avaapi.onrender.com/cursos?cateroria=${categoria.value}&_sort=criado_em&_order=desc` // adicona a categoria na requisição depois de ter clicado em um dos texto
     const response = await axios.get(apiUrl)
     if (response.data) {
       items.value = response.data
