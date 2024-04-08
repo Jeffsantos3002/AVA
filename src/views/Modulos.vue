@@ -81,7 +81,7 @@
               <div>
                 <p class="text-sm sm:h-24">{{ limitText(modulo.resumo, 193) }} </p>
                 <div class="w-full flex justify-end">
-                  <a href="#" class="text-lg text-gray font-semibold"  @click="redirecionarParaDetalhes(modulo.id, modulo.titulo)">Ver curso</a>
+                  <p class="text-lg text-gray font-semibold"  @click="redirecionarParaDetalhes(modulo.id, modulo.titulo)">Ver curso</p>
                 </div>
               </div>
             </div>
